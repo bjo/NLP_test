@@ -3,11 +3,13 @@ from __future__ import print_function
 from alchemyapi import AlchemyAPI
 import json
 
-demo_text = 'Tesla Motors was one of the market movers last week, with the stock touching a low of $123.93 on Monday, Dec. 2, only to close the week about 11% higher on Friday at $137. Last Tuesday was a particularly busy day for shares of Tesla, as the stock climbed on unusually high volume of 25,625,400. Let's take a closer look at what caused the move last week, and what investors can anticipate in the week ahead. Last week's defining "Tesla" moments
-More than 25 million Tesla shares traded hands last Tuesday, pushing the stock higher by 17% that day. Good news from German investigators, as well as an analyst upgrade from Morgan Stanley, was to thank. First, a German probe into recent Tesla Model S fires found "no manufacturer-related defects." While a U.S. investigation by the NHTSA is still under way, the seal of approval from the German Federal Motor Transport Authority was nonetheless encouraging.
+demo_text = '''
 On top of this, Morgan Stanley analyst Adam Jonas reiterated his support for the stock by naming Tesla his top pick among stocks within the auto sector. Commenting on the Model S fire incidents, Jonas said his firm is "impressed there have only been three fires since the car has gone on sale over 17 months, 22,000 units and some 130 million miles driven ago." As a result, Morgan Stanley now has a price target of $153 on shares of Tesla.
-Tesla gained even more attention later in the week, after SolarCity announced a new solar-powered storage system that uses Tesla's lithium-ion batteries. This is a perfect fit for the electric-car maker, particularly because Tesla's CEO, Elon Musk, is already a majority shareholder in SolarCity. It also helps that Musk is cousins with SolarCity's CEO Lyndon Rive.'
-#demo_text = 'In Moulmein, in lower Burma, I was hated by large numbers of people, the only time in my life that I have been important enough for this to happen to me. I was sub-divisional police officer of the town, and in an aimless, petty kind of way anti-European feeling was very bitter. No one had the guts to raise a riot, but if a European woman went through the bazaars alone somebody would probably spit betel juice over her dress. As a police officer I was an obvious target and was baited whenever it seemed safe to do so. When a nimble Burman tripped me up on the football field and the referee (another Burman) looked the other way, the crowd yelled with hideous laughter. This happened more than once. In the end the sneering yellow faces of young men that met me everywhere, the insults hooted after me when I was at a safe distance, got badly on my nerves. The young Buddhist priests were the worst of all. There were several thousands of them in the town and none of them seemed to have anything to do except stand on street corners and jeer at Europeans.'
+
+Tesla gained even more attention later in the week, after SolarCity announced a new solar-powered storage system that uses Tesla's lithium-ion batteries. This is a perfect fit for the electric-car maker, particularly because Tesla's CEO, Elon Musk, is already a majority shareholder in SolarCity. It also helps that Musk is cousins with SolarCity's CEO Lyndon Rive.
+'''
+
+
 demo_url = 'http://blog.programmableweb.com/2011/09/16/new-api-billionaire-text-extractor-alchemy/'
 demo_html = '<html><head><title>Python Demo | AlchemyAPI</title></head><body><h1>Did you know that AlchemyAPI works on HTML?</h1><p>Well, you do now.</p></body></html>'
 
